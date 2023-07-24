@@ -12,7 +12,7 @@ class PaymentListView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Payments App  '),
+        title: Text('Payments App   '),
       ),
       body: Obx(() {
         if (paymentController.isLoading.value) {
